@@ -56,14 +56,6 @@ This single-page application (SPA) showcases the services, mission, and contact 
 
 4. Visit `http://localhost:5000` in your web browser to view the site.
 
-## Contact
-
-For inquiries about this project or to contact PJ Cui LLC directly:
-
-- Email: pjcui.info@gmail.com
-- Phone: (407)924-5053
-- Address: 3500 Posner Blvd #1151, Davenport, FL 33837
-
 ## License
 
 This project is proprietary and belongs to PJ Cui LLC. All rights reserved.
