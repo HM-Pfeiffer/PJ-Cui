@@ -7,145 +7,220 @@
     <title>PJ Cui LLC - Agritrade Consulting</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="assets/logo.svg" alt="PJ Cui LLC Logo">
-                    <span>PJ Cui LLC</span>
+    <header class="bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <i class="bi bi-tree-fill text-success me-2 fs-3"></i>
+                    <span class="fw-bold fs-4">PJ Cui LLC</span>
                 </a>
-            </div>
-            <nav>
-                <button class="mobile-menu-btn" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Agricultural Trade Solutions for a Growing World</h1>
-                <p>Expert consulting services to navigate global agricultural markets with confidence</p>
-                <a href="services.html" class="btn primary-btn">Explore Our Services</a>
-            </div>
-        </section>
-
-        <section class="intro">
-            <div class="container">
-                <div class="intro-content">
-                    <h2>Welcome to PJ Cui LLC</h2>
-                    <p>At PJ Cui LLC, we provide expert consulting services to help agricultural businesses thrive in today's complex global market. With decades of industry experience, we deliver actionable insights and strategic guidance to optimize your agritrade operations.</p>
-                    <p>Our team combines deep agricultural knowledge with international trade expertise to create tailored solutions for farms, cooperatives, processors, and exporters of all sizes.</p>
-                </div>
-                <div class="intro-image">
-                    <img src="assets/wheat.svg" alt="Wheat illustration" class="decorative-svg">
-                </div>
-            </div>
-        </section>
-
-        <section class="mission">
-            <div class="container">
-                <h2>Our Mission</h2>
-                <div class="mission-content">
-                    <div class="mission-item">
-                        <img src="assets/corn.svg" alt="Corn illustration" class="icon-svg">
-                        <h3>Sustainable Growth</h3>
-                        <p>We empower agricultural businesses to achieve sustainable growth through responsible and innovative trade practices.</p>
-                    </div>
-                    <div class="mission-item">
-                        <img src="assets/tractor.svg" alt="Tractor illustration" class="icon-svg">
-                        <h3>Global Access</h3>
-                        <p>We connect agricultural businesses with international markets, opening new opportunities for expansion and diversification.</p>
-                    </div>
-                    <div class="mission-item">
-                        <img src="assets/wheat.svg" alt="Wheat illustration" class="icon-svg">
-                        <h3>Knowledge Transfer</h3>
-                        <p>We share our expertise and insights to help clients navigate regulatory challenges and market fluctuations effectively.</p>
+        <section class="py-5 text-center text-white" style="background-color: #476a34;">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-4 fw-bold text-white mb-3">Agricultural Trade Solutions for a Growing World</h1>
+                        <p class="lead mb-4">Expert consulting services to navigate global agricultural markets with confidence</p>
+                        <a href="services.html" class="btn btn-warning btn-lg px-4">Explore Our Services</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="services-preview">
+        <section class="py-5 bg-light">
             <div class="container">
-                <h2>Our Services</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <h3>Market Analysis</h3>
-                        <p>Detailed analysis of agricultural markets with actionable insights for strategic decision-making.</p>
-                        <a href="services.html#market-analysis" class="btn secondary-btn">Learn More</a>
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <h2 class="fw-bold mb-3" style="color: #476a34;">Welcome to PJ Cui LLC</h2>
+                        <p>At PJ Cui LLC, we provide expert consulting services to help agricultural businesses thrive in today's complex global market. With decades of industry experience, we deliver actionable insights and strategic guidance to optimize your agritrade operations.</p>
+                        <p>Our team combines deep agricultural knowledge with international trade expertise to create tailored solutions for farms, cooperatives, processors, and exporters of all sizes.</p>
                     </div>
-                    <div class="service-card">
-                        <h3>Trade Compliance</h3>
-                        <p>Expert guidance on navigating international agricultural trade regulations and compliance requirements.</p>
-                        <a href="services.html#trade-compliance" class="btn secondary-btn">Learn More</a>
+                    <div class="col-lg-5 text-center">
+                        <i class="bi bi-flower3 text-warning" style="font-size: 8rem;"></i>
                     </div>
-                    <div class="service-card">
-                        <h3>Supply Chain Optimization</h3>
-                        <p>Strategies to enhance efficiency and resilience in your agricultural supply chain.</p>
-                        <a href="services.html#supply-chain" class="btn secondary-btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="services-cta">
-                    <a href="services.html" class="btn primary-btn">View All Services</a>
                 </div>
             </div>
         </section>
 
-        <section class="testimonial">
+        <section class="py-5" style="background-color: #f8f9fa;">
             <div class="container">
-                <blockquote>
-                    <p>"PJ Cui LLC transformed our approach to international markets. Their expertise in agricultural trade helped us expand into three new countries in just 18 months."</p>
-                    <cite>- Agricultural Cooperative, Midwest USA</cite>
-                </blockquote>
+                <h2 class="text-center fw-bold mb-5" style="color: #476a34;">Our Mission</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-droplet-fill text-success mb-3" style="font-size: 2.5rem;"></i>
+                                <h3 class="card-title h4 mb-3">Sustainable Growth</h3>
+                                <p class="card-text">We empower agricultural businesses to achieve sustainable growth through responsible and innovative trade practices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-globe-americas text-success mb-3" style="font-size: 2.5rem;"></i>
+                                <h3 class="card-title h4 mb-3">Global Access</h3>
+                                <p class="card-text">We connect agricultural businesses with international markets, opening new opportunities for expansion and diversification.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-graph-up-arrow text-success mb-3" style="font-size: 2.5rem;"></i>
+                                <h3 class="card-title h4 mb-3">Knowledge Transfer</h3>
+                                <p class="card-text">We share our expertise and insights to help clients navigate regulatory challenges and market fluctuations effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center fw-bold mb-5" style="color: #476a34;">Our Services</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-graph-up text-success me-2" style="font-size: 1.5rem;"></i>
+                                    <h3 class="card-title h5 mb-0">Market Analysis</h3>
+                                </div>
+                                <p class="card-text">Detailed analysis of agricultural markets with actionable insights for strategic decision-making.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-top-0 text-end">
+                                <a href="services.html#market-analysis" class="btn btn-outline-success">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-clipboard-check text-success me-2" style="font-size: 1.5rem;"></i>
+                                    <h3 class="card-title h5 mb-0">Trade Compliance</h3>
+                                </div>
+                                <p class="card-text">Expert guidance on navigating international agricultural trade regulations and compliance requirements.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-top-0 text-end">
+                                <a href="services.html#trade-compliance" class="btn btn-outline-success">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-box-seam text-success me-2" style="font-size: 1.5rem;"></i>
+                                    <h3 class="card-title h5 mb-0">Supply Chain Optimization</h3>
+                                </div>
+                                <p class="card-text">Strategies to enhance efficiency and resilience in your agricultural supply chain.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-top-0 text-end">
+                                <a href="services.html#supply-chain" class="btn btn-outline-success">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="services.html" class="btn btn-success btn-lg">View All Services</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 text-white" style="background-color: #476a34;">
+            <div class="container py-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <i class="bi bi-quote fs-1 mb-3 text-warning"></i>
+                        <blockquote class="blockquote mb-4">
+                            <p class="fs-4">"PJ Cui LLC transformed our approach to international markets. Their expertise in agricultural trade helped us expand into three new countries in just 18 months."</p>
+                            <footer class="blockquote-footer text-light mt-2">
+                                Agricultural Cooperative, <cite>Midwest USA</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="bg-dark text-white py-5">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="assets/logo.svg" alt="PJ Cui LLC Logo">
-                    <p>PJ Cui LLC</p>
-                    <p>Agritrade Consulting</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="mb-4">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-tree-fill text-success me-2 fs-3"></i>
+                            <h5 class="mb-0 fw-bold">PJ Cui LLC</h5>
+                        </div>
+                        <p class="text-muted mb-0">Agritrade Consulting</p>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-decoration-none text-light">Home</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-decoration-none text-light">Services</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-decoration-none text-light">About</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-decoration-none text-light">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <address>
-                        <p>123 Agribusiness Lane</p>
-                        <p>Suite 456</p>
-                        <p>Farmington, IL 61531</p>
-                        <p>Email: info@pjcuillc.com</p>
-                        <p>Phone: (555) 123-4567</p>
+                <div class="col-lg-6 col-md-12">
+                    <h5 class="fw-bold mb-3">Contact Us</h5>
+                    <address class="mb-0">
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-geo-alt text-success me-2"></i>
+                            <p class="mb-0">123 Agribusiness Lane, Suite 456<br>Farmington, IL 61531</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-envelope text-success me-2"></i>
+                            <p class="mb-0">info@pjcuillc.com</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="bi bi-telephone text-success me-2"></i>
+                            <p class="mb-0">(555) 123-4567</p>
+                        </div>
                     </address>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 PJ Cui LLC. All rights reserved.</p>
+            <hr class="my-4 border-secondary">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">&copy; 2025 PJ Cui LLC. All rights reserved.</p>
+                </div>
             </div>
         </div>
     </footer>
