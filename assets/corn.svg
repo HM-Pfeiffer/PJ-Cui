@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .stalk { stroke: #476a34; stroke-width: 2; }
+    .corn { fill: #e9c46a; }
+    .husk { fill: #8a9b68; }
+  </style>
+  
+  <!-- Stalk -->
+  <path class="stalk" d="M100,190 C100,170 90,150 95,130 C100,110 90,90 95,70" fill="none"/>
+  
+  <!-- Leaves -->
+  <path class="husk" d="M95,70 C70,60 60,30 80,20 C100,30 110,50 95,70z"/>
+  <path class="husk" d="M95,130 C120,120 140,100 130,80 C110,90 90,110 95,130z"/>
+  
+  <!-- Corn cob -->
+  <ellipse class="corn" cx="100" cy="110" rx="15" ry="35"/>
+  
+  <!-- Corn kernels (grid pattern) -->
+  <g fill="#bf9d58">
+    <!-- Row 1 -->
+    <circle cx="95" cy="90" r="2"/>
+    <circle cx="100" cy="90" r="2"/>
+    <circle cx="105" cy="90" r="2"/>
+    
+    <!-- Row 2 -->
+    <circle cx="92" cy="95" r="2"/>
+    <circle cx="97" cy="95" r="2"/>
+    <circle cx="102" cy="95" r="2"/>
+    <circle cx="107" cy="95" r="2"/>
+    
+    <!-- Row 3 -->
+    <circle cx="90" cy="100" r="2"/>
+    <circle cx="95" cy="100" r="2"/>
+    <circle cx="100" cy="100" r="2"/>
+    <circle cx="105" cy="100" r="2"/>
+    <circle cx="110" cy="100" r="2"/>
+    
+    <!-- Row 4 -->
+    <circle cx="92" cy="105" r="2"/>
+    <circle cx="97" cy="105" r="2"/>
+    <circle cx="102" cy="105" r="2"/>
+    <circle cx="107" cy="105" r="2"/>
+    
+    <!-- Row 5 -->
+    <circle cx="90" cy="110" r="2"/>
+    <circle cx="95" cy="110" r="2"/>
+    <circle cx="100" cy="110" r="2"/>
+    <circle cx="105" cy="110" r="2"/>
+    <circle cx="110" cy="110" r="2"/>
+    
+    <!-- Row 6 -->
+    <circle cx="92" cy="115" r="2"/>
+    <circle cx="97" cy="115" r="2"/>
+    <circle cx="102" cy="115" r="2"/>
+    <circle cx="107" cy="115" r="2"/>
+    
+    <!-- Row 7 -->
+    <circle cx="90" cy="120" r="2"/>
+    <circle cx="95" cy="120" r="2"/>
+    <circle cx="100" cy="120" r="2"/>
+    <circle cx="105" cy="120" r="2"/>
+    <circle cx="110" cy="120" r="2"/>
+    
+    <!-- Row 8 -->
+    <circle cx="92" cy="125" r="2"/>
+    <circle cx="97" cy="125" r="2"/>
+    <circle cx="102" cy="125" r="2"/>
+    <circle cx="107" cy="125" r="2"/>
+    
+    <!-- Row 9 -->
+    <circle cx="95" cy="130" r="2"/>
+    <circle cx="100" cy="130" r="2"/>
+    <circle cx="105" cy="130" r="2"/>
+  </g>
+  
+  <!-- Husk pieces -->
+  <path class="husk" d="M85,85 C75,90 70,105 75,130 C80,125 85,115 85,105 Z" opacity="0.7"/>
+  <path class="husk" d="M115,85 C125,90 130,105 125,130 C120,125 115,115 115,105 Z" opacity="0.7"/>
+</svg>

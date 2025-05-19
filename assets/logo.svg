@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .leaf { fill: #476a34; }
+    .grain { fill: #e9c46a; }
+  </style>
+  <circle cx="50" cy="50" r="45" fill="#ffffff" stroke="#476a34" stroke-width="2"/>
+  <!-- Wheat stalk -->
+  <path class="grain" d="M35,75 C35,50 45,35 45,20 C45,35 55,50 55,75" stroke="#bf9d58" stroke-width="2" fill="none"/>
+  <!-- Wheat grains -->
+  <ellipse class="grain" cx="40" cy="30" rx="3" ry="5" transform="rotate(-15 40 30)"/>
+  <ellipse class="grain" cx="50" cy="30" rx="3" ry="5" transform="rotate(15 50 30)"/>
+  <ellipse class="grain" cx="38" cy="40" rx="3" ry="5" transform="rotate(-15 38 40)"/>
+  <ellipse class="grain" cx="52" cy="40" rx="3" ry="5" transform="rotate(15 52 40)"/>
+  <ellipse class="grain" cx="36" cy="50" rx="3" ry="5" transform="rotate(-15 36 50)"/>
+  <ellipse class="grain" cx="54" cy="50" rx="3" ry="5" transform="rotate(15 54 50)"/>
+  <!-- Leaf -->
+  <path class="leaf" d="M65,55 C75,45 80,55 65,65 C80,65 85,75 70,80 C60,83 55,70 65,55z"/>
+  <!-- PJC text -->
+  <text x="50" y="85" text-anchor="middle" class="logo-text" font-size="15" fill="#476a34">PJC</text>
+</svg>

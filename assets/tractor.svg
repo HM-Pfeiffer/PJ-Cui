@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .tractor-body { fill: #476a34; }
+    .tractor-cabin { fill: #8a9b68; }
+    .tractor-wheel { fill: #333333; }
+    .tractor-rim { fill: #bf9d58; }
+    .tractor-detail { fill: #e9c46a; }
+  </style>
+  
+  <!-- Large rear wheels -->
+  <circle class="tractor-wheel" cx="60" cy="150" r="30"/>
+  <circle class="tractor-rim" cx="60" cy="150" r="20"/>
+  <circle fill="#333333" cx="60" cy="150" r="10"/>
+  
+  <!-- Wheel details -->
+  <path stroke="#333333" stroke-width="2" fill="none" d="M60,130 L60,170"/>
+  <path stroke="#333333" stroke-width="2" fill="none" d="M40,150 L80,150"/>
+  <path stroke="#333333" stroke-width="2" fill="none" d="M45,135 L75,165"/>
+  <path stroke="#333333" stroke-width="2" fill="none" d="M45,165 L75,135"/>
+  
+  <!-- Small front wheel -->
+  <circle class="tractor-wheel" cx="140" cy="155" r="15"/>
+  <circle class="tractor-rim" cx="140" cy="155" r="10"/>
+  <circle fill="#333333" cx="140" cy="155" r="5"/>
+  
+  <!-- Tractor body -->
+  <rect class="tractor-body" x="50" y="110" width="70" height="25" rx="5"/>
+  <rect class="tractor-body" x="90" y="90" width="30" height="45" rx="5"/>
+  <rect class="tractor-detail" x="95" y="100" width="20" height="10"/>
+  
+  <!-- Cabin -->
+  <polygon class="tractor-cabin" points="50,110 50,85 85,60 105,60 120,85 120,110"/>
+  
+  <!-- Windows -->
+  <polygon fill="#9fc5e8" points="55,105 55,85 83,65 100,65 115,85 115,105"/>
+  
+  <!-- Steering wheel -->
+  <circle fill="#333333" cx="85" cy="82" r="8"/>
+  <circle fill="#bf9d58" cx="85" cy="82" r="4"/>
+  
+  <!-- Front hood -->
+  <rect class="tractor-body" x="120" y="100" width="40" height="20" rx="5"/>
+  <rect class="tractor-detail" x="125" y="105" width="10" height="10"/>
+  <rect class="tractor-detail" x="140" y="105" width="15" height="5"/>
+  
+  <!-- Front connection -->
+  <rect class="tractor-body" x="160" y="105" width="20" height="5"/>
+  
+  <!-- Exhaust pipe -->
+  <rect class="tractor-body" x="60" y="90" width="5" height="20"/>
+  <rect class="tractor-body" x="57" y="85" width="11" height="5"/>
+  
+  <!-- Mudguards -->
+  <path class="tractor-body" d="M30,120 C30,110 40,105 60,105 C80,105 90,110 90,120" fill="none" stroke="#476a34" stroke-width="5"/>
+</svg>
