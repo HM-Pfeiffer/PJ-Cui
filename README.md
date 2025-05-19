@@ -56,16 +56,6 @@ This single-page application (SPA) showcases the services, mission, and contact 
 
 4. Visit `http://localhost:5000` in your web browser to view the site.
 
-## Deployment
-
-The site is configured to run on any hosting platform that supports Python and Flask. It can be deployed on platforms like:
-
-- Replit
-- Heroku
-- PythonAnywhere
-- AWS
-- Google Cloud Platform
-
 ## Contact
 
 For inquiries about this project or to contact PJ Cui LLC directly:
