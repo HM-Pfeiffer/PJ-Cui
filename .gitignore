@@ -56,3 +56,4 @@ Thumbs.db
 # other
 .replit
 pyproject.toml
+uv.lock
